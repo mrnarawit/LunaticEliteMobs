@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="lunaticelitemobs"
+version="1.0.0"
+displayName="Lunatic Elite Mobs"
+authors="naravit"
+description='''
+Hostile mobs have a small chance to spawn as Elites: tougher, faster, wrapped in a red aura that grows more menacing with every tier, and they drop better loot and more experience.
+'''
+
+[[dependencies.lunaticelitemobs]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.lunaticelitemobs]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
